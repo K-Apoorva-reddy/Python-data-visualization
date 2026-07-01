@@ -82,31 +82,21 @@ Project Screenshots
 
 Project Structure
 
-[Project Structure](Screenshots/project-structure.png)
-
-Employee Dataset
-
-[Dataset](Screenshots/input-dataset.png)
-
-Terminal Output
-
-![Terminal Output](Screenshots/terminal-output.png)
+(Structure.png)
 
 Employee Salary Bar Chart
 
-![Bar Chart](Screenshots/bar-chart.png)
+(Barchart.png)
 
 Department Distribution
 
-![Pie Chart](Screenshots/pie-chart.png)
+(Piechart.png)
 
 Salary Distribution Histogram
 
-![Histogram](Screenshots/histogram.png)
+(Histogram.png)
 
- Cleaned Data
 
-![Cleaned Data](Screenshots/cleaned-data.png)
 
 Learning Outcomes
 
