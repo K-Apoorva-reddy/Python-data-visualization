@@ -16,18 +16,17 @@ print("Average Salary:", df["Salary"].mean())
 print("Highest Salary:", df["Salary"].max())
 print("Lowest Salary:", df["Salary"].min())
 
-# -------------------
 # Bar Chart
-# -------------------
+
 plt.bar(df["Name"], df["Salary"])
 plt.title("Employee Salaries")
 plt.xlabel("Employee Name")
 plt.ylabel("Salary")
 plt.show()
 
-# -------------------
+
 # Pie Chart
-# -------------------
+
 department_count = df["Department"].value_counts()
 
 plt.pie(
@@ -38,16 +37,19 @@ plt.pie(
 plt.title("Department Distribution")
 plt.show()
 
-# -------------------
+
 # Histogram
-# -------------------
+
 plt.hist(df["Salary"])
 plt.title("Salary Distribution")
 plt.xlabel("Salary")
 plt.ylabel("Frequency")
 plt.show()
 
-# Save cleaned data
-df.to_csv("cleaned_data.csv", index=False)
+#Save cleaned data
+
+df.to_csv("data/cleaned_data.csv", index=False)
+
+print("Cleaned data saved successfully as data/cleaned_data.csv")
 
 print("Project Completed Successfully!")
